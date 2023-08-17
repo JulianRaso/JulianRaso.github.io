@@ -41,16 +41,22 @@ img{
 .bottomInfo{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 6px solid black;
+    width: 100%;
+    background-color: beige;
+    position: fixed;
+    bottom: 0px;
 }
 
 .btmContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #inf{
-    margin: 4px;
+    margin: 6px;
     font-size: large;
 }
+
 
