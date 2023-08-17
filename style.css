@@ -1,0 +1,56 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    justify-items: center;
+}
+
+.about{
+    margin-top: 8px;
+    display: flex;
+    border: 6px solid black;
+    border-radius: 8px;
+}
+
+img{
+    height: 300px;
+    width: 220px;
+}
+
+.xpContainer{
+    border: 6px solid black;
+    margin: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medContainer{
+    display: flex;
+    border: 6px solid black;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.bottomInfo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.btmContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inf{
+    margin: 4px;
+    font-size: large;
+}
+
