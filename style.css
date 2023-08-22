@@ -16,6 +16,7 @@ body{
     display: flex;
     border: 6px solid black;
     border-radius: 8px;
+    width: 99%;
 }
 
 #profileImg{
@@ -36,6 +37,7 @@ img{
     display: flex;
     justify-content: space-between;
     background-color: beige;
+    width: 99%;
 }
 
 .medContainer{
@@ -74,4 +76,14 @@ li{
     margin-left: 20px;
 }
 
-
+.proyects{
+    display: flex;
+    flex-direction: column;
+    border: 6px solid black;
+    border-radius: 8px;
+    justify-content: space-around;
+    background-color: beige;
+    margin: 8px;
+    margin-bottom: 32px;
+    width: 99%;
+}
